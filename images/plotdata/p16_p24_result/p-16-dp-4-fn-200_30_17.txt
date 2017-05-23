@@ -1,0 +1,43 @@
+--------------------------------------------------------------------------
+WARNING: There is at least non-excluded one OpenFabrics device found,
+but there are no active ports detected (or Open MPI was unable to use
+them).  This is most certainly not what you wanted.  Check your
+cables, subnet manager configuration, etc.  The openib BTL will be
+ignored for this job.
+
+  Local host: jinx-login
+--------------------------------------------------------------------------
+DEBUG:worker_main start slave pid=2
+DEBUG:worker_main start slave pid=5
+DEBUG:worker_main start slave pid=6
+DEBUG:worker_main start slave pid=7
+DEBUG:worker_main start slave pid=9
+DEBUG:worker_main start slave pid=12
+DEBUG:worker_main start slave pid=13
+DEBUG:worker_main start slave pid=14
+DEBUG:worker_main start slave pid=3
+DEBUG:worker_main start slave pid=4
+DEBUG:worker_main start slave pid=8
+DEBUG:worker_main start slave pid=10
+DEBUG:worker_main start slave pid=11
+DEBUG:worker_main start slave pid=15
+DEBUG:master_main start master with n=200, l=30, d=17, master_depth=4
+DEBUG:worker_main start slave pid=1
+[jinx11:31049] 15 more processes have sent help message help-mpi-btl-openib.txt / no active ports found
+[jinx11:31049] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+DEBUG:main_master master recved message from terminating slave pid=12, count of slaves terminated =1
+DEBUG:main_master master recved message from terminating slave pid=8, count of slaves terminated =2
+DEBUG:main_master master recved message from terminating slave pid=11, count of slaves terminated =3
+DEBUG:main_master master recved message from terminating slave pid=15, count of slaves terminated =4
+DEBUG:main_master master recved message from terminating slave pid=14, count of slaves terminated =5
+DEBUG:main_master master recved message from terminating slave pid=4, count of slaves terminated =6
+DEBUG:main_master master recved message from terminating slave pid=10, count of slaves terminated =7
+DEBUG:main_master master recved message from terminating slave pid=5, count of slaves terminated =8
+DEBUG:main_master master recved message from terminating slave pid=13, count of slaves terminated =9
+DEBUG:main_master master recved message from terminating slave pid=2, count of slaves terminated =10
+DEBUG:main_master master recved message from terminating slave pid=7, count of slaves terminated =11
+DEBUG:main_master master recved message from terminating slave pid=9, count of slaves terminated =12
+DEBUG:main_master master recved message from terminating slave pid=6, count of slaves terminated =13
+DEBUG:main_master master recved message from terminating slave pid=3, count of slaves terminated =14
+DEBUG:main_master master recved message from terminating slave pid=1, count of slaves terminated =15
+32.1252

@@ -1,0 +1,2 @@
+[WARNING]: Running the sequential solver. Start with mpirun to execute the parallel version.
+346.133

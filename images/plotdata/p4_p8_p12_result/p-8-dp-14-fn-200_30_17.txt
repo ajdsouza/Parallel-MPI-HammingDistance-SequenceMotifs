@@ -1,0 +1,25 @@
+--------------------------------------------------------------------------
+WARNING: There is at least non-excluded one OpenFabrics device found,
+but there are no active ports detected (or Open MPI was unable to use
+them).  This is most certainly not what you wanted.  Check your
+cables, subnet manager configuration, etc.  The openib BTL will be
+ignored for this job.
+
+  Local host: jinx-login
+--------------------------------------------------------------------------
+DEBUG:worker_main start slave pid=1
+DEBUG:worker_main start slave pid=2
+DEBUG:worker_main start slave pid=3
+DEBUG:worker_main start slave pid=4
+DEBUG:worker_main start slave pid=5
+DEBUG:worker_main start slave pid=6
+DEBUG:worker_main start slave pid=7
+DEBUG:master_main start master with n=200, l=30, d=17, master_depth=14
+[jinx2:16105] 7 more processes have sent help message help-mpi-btl-openib.txt / no active ports found
+[jinx2:16105] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[jinx-login:16864] *** An error occurred in MPI_Recv
+[jinx-login:16864] *** reported by process [140115208110081,4294967296]
+[jinx-login:16864] *** on communicator MPI_COMM_WORLD
+[jinx-login:16864] *** MPI_ERR_TRUNCATE: message truncated
+[jinx-login:16864] *** MPI_ERRORS_ARE_FATAL (processes in this communicator will now abort,
+[jinx-login:16864] ***    and potentially your MPI job)
