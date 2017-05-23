@@ -1,6 +1,5 @@
 /**
  * @file    findmotifs.h
- * @author  Patrick Flick <patrick.flick@gmail.com>
  * @brief   Declares the sequential findmotifs function.
  *
  * Copyright (c) 2014 Georgia Institute of Technology. All Rights Reserved.

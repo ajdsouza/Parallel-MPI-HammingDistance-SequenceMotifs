@@ -1,6 +1,5 @@
 /**
  * @file    hamming.h
- * @author  Patrick Flick <patrick.flick@gmail.com>
  * @brief   Declares the function calculating the Hamming distance.
  *
  * Copyright (c) 2014 Georgia Institute of Technology. All Rights Reserved.

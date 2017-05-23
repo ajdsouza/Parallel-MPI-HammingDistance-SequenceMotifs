@@ -1,6 +1,5 @@
 /**
  * @file    main.cpp
- * @author  Patrick Flick <patrick.flick@gmail.com>
  * @brief   Implements the main routine for the CSE6220 programming assignment 1.
  *
  * Copyright (c) 2014 Georgia Institute of Technology. All Rights Reserved.

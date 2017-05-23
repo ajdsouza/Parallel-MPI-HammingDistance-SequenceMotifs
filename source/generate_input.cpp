@@ -1,6 +1,5 @@
 /**
  * @file    generate_input.cpp
- * @author  Patrick Flick <patrick.flick@gmail.com>
  * @brief   A program for generating random input for the findmotif
  *          assignment.
  *

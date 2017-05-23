@@ -1,6 +1,5 @@
 /**
  * @file    mpi_findmotifs.h
- * @author  Patrick Flick <patrick.flick@gmail.com>
  * @brief   Declares the functions for solving the findmotif problem in
  *          parallel using a master-worker paradigm.
  *
